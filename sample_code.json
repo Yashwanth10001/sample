@@ -1,0 +1,20 @@
+{
+  "type": "column",
+  "children": [
+    {
+      "type": "text",
+      "data": "Hello"
+    },
+    {
+      "type": "elevatedButton",
+      "onPressed": {
+          "action": "print",
+          "message": "Button Pressed"
+        },
+        "child": {
+          "type": "text",
+          "data": "Click Me"
+        }
+    }
+  ]
+}
